@@ -333,9 +333,10 @@ header {
 }
 
 .box img {
-  height: 180px;
+  height: 100%;
   width: auto;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .city-feature {
