@@ -119,6 +119,39 @@ h2:after {
   text-align: center;
 }
 
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  margin-right: 10px;
+  
+  /*Secrets to align icons and text*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+/* --------------------------------------- */
+/* LINKS */
+/* --------------------------------------- */
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #e67e22;
+  border-bottom: 1px solid #e67e22;
+  padding-bottom: 1px;
+  transition: border-bottom 0.5s, color 0.5s
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
 /* --------------------------------------- */
 /* BUTTONS */
 /* --------------------------------------- */
@@ -318,6 +351,11 @@ header {
   margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+  border-bottom: transparent;
+}
+
 .btn-app img {
   height: 40px;
   width: auto;
@@ -333,12 +371,13 @@ header {
 }
 
 .box img {
-  height: 100%;
-  width: auto;
+  width: 100%;
+  height: auto;
   margin-bottom: 15px;
   text-align: center;
 }
 
 .city-feature {
-  margin-left: 15%;
+  margin-bottom: 5px;
 }
+
