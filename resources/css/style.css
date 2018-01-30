@@ -39,11 +39,11 @@ html {
 }
 
 section {
-  padding: 0 0 80px 0;
+  padding: 0 0 70px 0;
 }
 
 .box {
- padding: 1.5%; 
+ padding: 1.5%;
 }
 
 /* --------------------------------------- */
@@ -126,7 +126,7 @@ h2:after {
   color: #e67e22;
   font-size: 120%;
   margin-right: 10px;
-  
+
   /*Secrets to align icons and text*/
   line-height: 120%;
   vertical-align: middle;
@@ -157,10 +157,10 @@ a:active {
 /* --------------------------------------- */
 
 .btn:link, /*':' significa pseudoclasse - link estado normal do botao*/
-.btn:visited /*depois que vc clica*/{ 
+.btn:visited /*depois que vc clica*/{
   display: inline-block;
   padding: 10px 30px;
-  font-weight: 300;  
+  font-weight: 300;
   text-decoration: none;
   color: #fff;
   border-radius: 200px;
@@ -173,7 +173,7 @@ a:active {
   background-color: #e67e22;
 }
 
-.btn-ghost:link, 
+.btn-ghost:link,
 .btn-ghost:visited {
   margin-left: 5px;
   color: #e99041;
@@ -184,7 +184,7 @@ a:active {
   background-color: #e99041;
   border-color: #e99041;
   color: #fff;
-} 
+}
 
 .btn-full:hover, /*quando o mouse esta em cima do botao*/
 .btn-full:active /*quando o botao esta sendo clicado*/ {
@@ -217,7 +217,7 @@ header {
   width: 1140px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /*metade do top e metade do left*/  
+  transform: translate(-50%, -50%); /*metade do top e metade do left*/
 }
 
 .logo {
@@ -321,7 +321,7 @@ header {
   margin-top: 30px;
 }
 
-.steps-box:last-child { 
+.steps-box:last-child {
   padding-left: 3%;
   margin-top: 85px;
 }
@@ -391,10 +391,8 @@ header {
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
-}
-
-.section-testimonials h2 {
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 blockquote {
@@ -426,3 +424,66 @@ cite img {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+/* --------------------------------------- */
+/* SIGN UP */
+/* --------------------------------------- */
+
+.section-plans {
+  background-color: #f5f5f5;
+  padding-top: 80px;
+}
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #e4e4e4;
+}
+
+.plan-box h3 {
+  text-align: left;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+  background-color: #fbfbfb;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border-bottom: 0;
+}
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: #e67e22;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+  font-weight: 100;
+}
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 5px 0;
+}
+
