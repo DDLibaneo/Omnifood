@@ -65,7 +65,10 @@
   
   .row,
   .hero-text-box { padding: 0 4%; }  
-  .col { width: 100%; }
+  .col { 
+    width: 100%; 
+    margin: 0 0 4% 0;
+  }
   
   h1 { font-size: 180%; }
   h2 { font-size: 145%; }
@@ -101,21 +104,21 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) { /* Este codigo so sera aplicado em tela iguais ou menores que este tamanho */
+  section { padding: 15px 0; }
+  .section-features { padding-bottom: 0; }
+  .box { padding: 0; }
+  .section-features p { margin-bottom: 0; }
+  .section-steps { padding-top: 10px; }  
+  .section-cities { padding-top: 10px; }
+  .section-testimonials { padding-top: 5px; }
+  .section-plans { padding-top: 10px; } 
+  .section-form { padding-top: 10px; }
   
+  h2{ margin-bottom: 10px; }
+  h2:after { margin-top: 10px; }
+  
+  .contact-form { width: 100%; }
+  
+  .logo { display: none; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

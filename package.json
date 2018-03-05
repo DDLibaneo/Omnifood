@@ -1,0 +1,24 @@
+{
+  "name": "omnifood-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDLibaneo/Omnifood.git"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDLibaneo/Omnifood/issues"
+  },
+  "homepage": "https://github.com/DDLibaneo/Omnifood#readme",
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "respond.js": "^1.4.2",
+    "selectivizr": "^1.0.3"
+  }
+}
