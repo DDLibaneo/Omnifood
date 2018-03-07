@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-html, 
+html,
 body {
   background-color: #fff;
   color: #555;
@@ -179,8 +179,8 @@ input[type=submit] { background-color: #e67e22; }
 }
 
 .btn:hover, /*quando o mouse esta em cima do botao*/
-.btn:active, /*quando o botao esta sendo clicado*/ 
-input[type=submit]:hover, 
+.btn:active, /*quando o botao esta sendo clicado*/
+input[type=submit]:hover,
 input[type=submit]:active {
   background-color: #e99041;
   border-color: #e99041;
@@ -211,7 +211,6 @@ header {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  margin-bottom: 60px;
   background-attachment: fixed;
 }
 
@@ -228,12 +227,23 @@ header {
   height: 100px;
   width: auto;
   float: left;
+  margin: 22px 0;
 }
 
-.main-nav {
+.logo-black {
+  display: none;
+  height: 45px;
+  width: auto;
   float: left;
+  margin: 5px 0;
+}
+
+/* Main Navigation */
+.main-nav {
+  float: right;
   margin-left: 0;
   list-style: none;
+  text-transform: uppercase;
 }
 
 .main-nav li {
@@ -255,11 +265,41 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active { border-bottom: 2px solid #e67e22; }
 
+/* Sticky Navigation */
+.sticky {
+  position: fixed; /* With fixed, the nav will always stay on the same place regardless of scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #f7f7f7; /* 0px no x, 2px no y, 2px no blur e cor */
+  z-index: 9999;
+}
+
+.sticky .main-nav li {
+  margin: 21px 0 0 40px;
+  font-size: 90%;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 15px 0;
+  color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
+
+
+
 /* --------------------------------------- */
 /*FEATURES*/
 /* --------------------------------------- */
 
-.section-features { padding-bottom: 30px; }
+.section-features {
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
 
 .section-features p { margin-bottom: 30px; }
 
@@ -556,7 +596,7 @@ footer p {
 .social-links li:last-child { margin-right: 0; }
 
 .footer-nav li a:link,
-.footer-nav li a:visited, 
+.footer-nav li a:visited,
 .social-links li a:link,
 .social-links li a:visited {
   text-decoration: none;

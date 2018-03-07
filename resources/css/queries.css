@@ -4,8 +4,8 @@
 @media only screen and (max-width: 1200px) { /*a pagina foi definida como 1140px max-width */
  .hero-text-box {
   width: 100%;
-  padding: 0 2%;
-  }   
+  padding: 1% 2%;
+  }
   .row { padding: 0 2%; }
 }
 
@@ -13,38 +13,39 @@
 @media only screen and (max-width: 1024px) {
   html { font-size: 17px; }
   header { margin-bottom: 0; }
-  section { padding: 60px 0; }  
+  section { padding: 60px 0; }
+  .section-features { padding-top: 60px; }
   .section-steps { padding-top: 60px; }
   .section-cities { padding-top: 60px; }
   .section-testimonials { padding-top: 40px; }
-  .section-plans { padding-top: 60px; } 
-  .section-form { padding-top: 60px; }  
-  
+  .section-plans { padding-top: 60px; }
+  .section-form { padding-top: 60px; }
+
   .long-copy {
     width: 80%;
     margin-left: 10%;
   }
-  
+
   .steps-box:last-child { margin-top: 34px; }
   .works-step { margin-bottom: 40px; }
   .works-step:last-of-type { margin-bottom: 60px; }
   .app-screen { width: 50%; }
-  
-  .icon-small { 
-    width: 18px; 
+
+  .icon-small {
+    width: 18px;
     margin-right: 5px;
   }
-  
+
   .city-feature { font-size: 85%; }
-  
-  .plan-box { 
+
+  .plan-box {
     width: 100%;
     margin-left: 0%;
   }
-  
+
   .plan-box ul { font-size: 90%; }
   .plan-price { font-size: 250%; }
-  
+
   .contact-form {
     width: 80%;
   }
@@ -55,34 +56,34 @@
   body { font-size: 16px; }
   header { margin-bottom: 0; }
   section { padding: 30px 0; }
-  .section-features { padding-bottom: 0; }
+  .section-features { padding: 40px 0 0 0;}
   .section-features p { margin-bottom: 0; }
-  .section-steps { padding-top: 30px; }  
+  .section-steps { padding-top: 30px; }
   .section-cities { padding-top: 30px; }
   .section-testimonials { padding-top: 10px; }
-  .section-plans { padding-top: 30px; } 
+  .section-plans { padding-top: 30px; }
   .section-form { padding-top: 30px; }
-  
+
   .row,
-  .hero-text-box { padding: 0 4%; }  
-  .col { 
-    width: 100%; 
+  .hero-text-box { padding: 1% 4%; }
+  .col {
+    width: 100%;
     margin: 0 0 4% 0;
   }
-  
+
   h1 { font-size: 180%; }
   h2 { font-size: 145%; }
-  
+
   .long-copy {
     width: 100%;
     margin-left: 0%;
   }
-  
+
   .steps-box:first-child { /* a primeira das steps-box, a foto do celular */
     text-align: center;
     margin-top: 30px;
   }
-  
+
   .steps-box:last-child {
     margin-top: 25px;
   }
@@ -90,7 +91,7 @@
   .works-step { margin-bottom: 20px; }
   .works-step:last-of-type { margin-bottom: 30px; }
   .app-screen { width: 30%; }
-  
+
   .works-step div { /* Circle */
     height: 40px;
     width: 40px;
@@ -98,7 +99,7 @@
     margin-right: 15px;
     font-size: 120%;
   }
-  
+
   .main-nav { display: none; }
 }
 
@@ -108,17 +109,16 @@
   .section-features { padding-bottom: 0; }
   .box { padding: 0; }
   .section-features p { margin-bottom: 0; }
-  .section-steps { padding-top: 10px; }  
+  .section-steps { padding-top: 10px; }
   .section-cities { padding-top: 10px; }
   .section-testimonials { padding-top: 5px; }
-  .section-plans { padding-top: 10px; } 
+  .section-plans { padding-top: 10px; }
   .section-form { padding-top: 10px; }
-  
+
   h2{ margin-bottom: 10px; }
   h2:after { margin-top: 10px; }
-  
+
   .contact-form { width: 100%; }
-  
+
   .logo { display: none; }
 }
-

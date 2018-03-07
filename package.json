@@ -19,6 +19,7 @@
   "dependencies": {
     "html5shiv": "^3.7.3",
     "respond.js": "^1.4.2",
-    "selectivizr": "^1.0.3"
+    "selectivizr": "^1.0.3",
+    "waypoints": "^4.0.1"
   }
 }
